@@ -1,7 +1,7 @@
 package org.example.wortrainer_reloaded;
 
-import model.Statistik;
-import model.WortBildPaar;
+//import model.Statistik;
+//import model.WortBildPaar;
 
 import java.util.ArrayList;
 import java.util.List;

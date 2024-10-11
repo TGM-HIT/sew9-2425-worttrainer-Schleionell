@@ -1,3 +1,5 @@
+package org.example.wortrainer_reloaded;
+
 import org.example.wortrainer_reloaded.WorttrainerGUI;
 
 /**
