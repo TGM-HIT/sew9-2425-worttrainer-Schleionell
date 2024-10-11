@@ -3,6 +3,7 @@ package org.example.wortrainer_reloaded.persistence;
 import org.example.wortrainer_reloaded.model.Statistik;
 import org.example.wortrainer_reloaded.model.WortBildPaar;
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 import org.example.wortrainer_reloaded.service.WorttrainerService;
 
@@ -28,7 +29,7 @@ public class JsonPersistenzService implements PersistenzService {
     }
 
     @Override
-    public void speichern(WorttrainerService worttrainerService) {
+    public void speichern(WorttrainerService worttrainerService) throws JSONException {
         JSONObject jsonObj = new JSONObject();
 
         // Speichere WortBildPaare
@@ -121,7 +122,7 @@ public class JsonPersistenzService implements PersistenzService {
             }
 
             return worttrainerService;
-        } catch (IOException | MalformedURLException e) {
+        } catch (IOException e) {
             e.printStackTrace();
             // Fehlerbehandlung
             return null;
