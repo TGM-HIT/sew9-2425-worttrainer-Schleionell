@@ -1,6 +1,6 @@
-package org.example.wortrainer_reloaded;
+package org.example.wortrainer_reloaded.persistence;
 
-import service.WorttrainerService;
+import org.example.wortrainer_reloaded.service.WorttrainerService;
 
 /**
  * Interface für den Persistenz-Service.

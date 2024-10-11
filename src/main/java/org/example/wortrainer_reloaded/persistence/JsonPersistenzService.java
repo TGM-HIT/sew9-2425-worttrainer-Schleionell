@@ -1,10 +1,10 @@
-package org.example.wortrainer_reloaded;
+package org.example.wortrainer_reloaded.persistence;
 
-
-
+import org.example.wortrainer_reloaded.model.Statistik;
+import org.example.wortrainer_reloaded.model.WortBildPaar;
 import org.json.JSONArray;
 import org.json.JSONObject;
-
+import org.example.wortrainer_reloaded.service.WorttrainerService;
 
 import java.io.File;
 import java.io.FileWriter;

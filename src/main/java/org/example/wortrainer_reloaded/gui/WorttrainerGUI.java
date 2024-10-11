@@ -1,9 +1,9 @@
-package org.example.wortrainer_reloaded;
+package org.example.wortrainer_reloaded.gui;
 
-import model.WortBildPaar;
-import persistence.JsonPersistenzService;
-import persistence.PersistenzService;
-import service.WorttrainerService;
+import org.example.wortrainer_reloaded.model.WortBildPaar;
+import org.example.wortrainer_reloaded.persistence.JsonPersistenzService;
+import org.example.wortrainer_reloaded.persistence.PersistenzService;
+import org.example.wortrainer_reloaded.service.WorttrainerService;
 
 import javax.swing.*;
 import java.net.URL;

@@ -1,6 +1,6 @@
-package org.example.wortrainer_reloaded;
+package org.example.wortrainer_reloaded.service;
 
-import org.example.wortrainer_reloaded.WorttrainerGUI;
+import org.example.wortrainer_reloaded.gui.WorttrainerGUI;
 
 /**
  * Startet die Anwendung.

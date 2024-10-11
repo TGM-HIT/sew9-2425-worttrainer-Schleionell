@@ -1,4 +1,4 @@
-package org.example.wortrainer_reloaded;
+package org.example.wortrainer_reloaded.model;
 
 /**
  * Hält die Statistik über die geratenen Wörter.

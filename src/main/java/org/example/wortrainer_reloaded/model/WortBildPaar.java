@@ -1,4 +1,4 @@
-package org.example.wortrainer_reloaded;
+package org.example.wortrainer_reloaded.model;
 
 import java.net.MalformedURLException;
 import java.net.URL;
